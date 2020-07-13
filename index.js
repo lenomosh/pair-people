@@ -1,15 +1,14 @@
 
 const students = [
-    'Okello Jeremy',
     'Okoth Philip Andrew',
     'Okwacha David',
     'Omar Mohamed',
     'Omondi Derrick',
-    'Omondi Lennox',
+    'Omondi LennoX',
     'Onaya Christine',
     'Onchieku Eddie',
     'Opiyo Arnold',
-    'osango Charles',
+    'Osango Charles',
     'Osiko John',
     'Otieno John Paul',
     'Peter Kibui',
@@ -19,8 +18,8 @@ const students = [
     'Fartun Mohamed',
     'Mbagaya Virsail',
     'Mbaya Michael',
-    'mercyline Aoko',
-    'MichaelOmondi',
+    'Mercyline Aoko',
+    'Michael Omondi',
     'Muita Agnes',
     'Mumbi Molly',
     'Mureithi Dennis Kamunya',
@@ -131,7 +130,7 @@ const formatDataAsCSV = (jsonData) => {
 
     return csv;
 }
-// const dataToDownload = generateOneWeekData();
-// downloadData(formatDataAsCSV(dataToDownload),'students','csv')
+const dataToDownload = generateOneWeekData();
+downloadData(formatDataAsCSV(dataToDownload),'weekFourPair','csv')
 // console.log(formatDataAsCSV(dataToDownload));
 // document.body.innerHTML = formatDataAsCSV(dataToDownload);

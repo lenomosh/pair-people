@@ -14,4 +14,4 @@ The **pairPeople()** function expects two parameters, the data array containing 
 
 **downloadData()** expects three parameters; data, filename and extension. This function generates a download link for files of type either JSON or csv.
 
-**formateDataAsCSV()**expects jsonData to be the data generated or has the same format as **generateOneWeekData()**function.
+**formateDataAsCSV()** expects jsonData to be the data generated or has the same format as **generateOneWeekData()** function.
